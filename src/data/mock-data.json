@@ -1,0 +1,175 @@
+{
+    "metadata": {
+      "dataset": "company-viewer-editor-mock",
+      "generatedAt": "2026-02-12T23:35:00.000Z",
+      "notes": [
+        "Synthetic interview dataset with multiple company records.",
+        "Designed for viewer/editor form behavior and validation flows."
+      ]
+    },
+    "naicsReference": [
+      {
+        "vertical": "Finance and Insurance",
+        "subVerticals": [
+          "Direct Property and Casualty Insurance Carriers",
+          "Insurance Agencies and Brokerages",
+          "Real Estate Credit"
+        ]
+      },
+      {
+        "vertical": "Utilities",
+        "subVerticals": [
+          "Electric Power Distribution",
+          "Hydroelectric Power Generation"
+        ]
+      },
+      {
+        "vertical": "Transportation and Warehousing",
+        "subVerticals": [
+          "Line-Haul Railroads",
+          "Nonscheduled Chartered Passenger Air Transportation"
+        ]
+      },
+      {
+        "vertical": "Manufacturing",
+        "subVerticals": [
+          "Paint and Coating Manufacturing",
+          "Footwear Manufacturing",
+          "Battery Manufacturing"
+        ]
+      },
+      {
+        "vertical": "Information",
+        "subVerticals": [
+          "Data Processing, Hosting, and Related Services",
+          "Custom Computer Programming Services"
+        ]
+      }
+    ],
+    "companies": [
+      {
+        "id": "C001",
+        "name": "Berkshire Hathaway",
+        "legalName": "Berkshire Hathaway Inc.",
+        "description": "Diversified holding company with significant businesses across insurance, freight rail transportation, utilities and energy, manufacturing, services, and retail.",
+        "websiteUrl": "https://www.berkshirehathaway.com",
+        "companyStatus": "active",
+        "entityType": "Corporation",
+        "vertical": "Finance and Insurance",
+        "subVertical": "Insurance Agencies and Brokerages",
+        "annualRevenueUsd": 364482000000,
+        "fundingStage": "public",
+        "ticker": "BRK.A",
+        "stockExchange": "NYSE",
+        "parentCompanyId": null,
+        "directors": [
+          {
+            "id": "DIR-C001-01",
+            "name": "Avery Bennett",
+            "email": "avery.bennett@berkshirehathaway.com",
+            "phone": "+1-402-555-1201"
+          },
+          {
+            "id": "DIR-C001-02",
+            "name": "Jordan Patel",
+            "email": "jordan.patel@berkshirehathaway.com",
+            "phone": "+1-402-555-1209"
+          },
+          {
+            "id": "DIR-C001-03",
+            "name": "Morgan Hayes",
+            "email": "morgan.hayes@berkshirehathaway.com",
+            "phone": "+1-402-555-1217"
+          }
+        ],
+        "locations": [
+          {
+            "id": "LOC-C001-01",
+            "name": "Head Office",
+            "addressLine1": "3555 Farnam Street",
+            "city": "Omaha",
+            "region": "NE",
+            "postalCode": "68131",
+            "countryCode": "US"
+          },
+          {
+            "id": "LOC-C001-02",
+            "name": "New York Office",
+            "addressLine1": "767 Fifth Avenue",
+            "city": "New York",
+            "region": "NY",
+            "postalCode": "10153",
+            "countryCode": "US"
+          },
+          {
+            "id": "LOC-C001-03",
+            "name": "London Office",
+            "addressLine1": "70 St Mary Axe",
+            "city": "London",
+            "region": "England",
+            "postalCode": "EC3A8BE",
+            "countryCode": "GB"
+          }
+        ]
+      },
+      {
+        "id": "C002",
+        "name": "Northvolt",
+        "legalName": "Northvolt AB",
+        "description": "European battery manufacturer focused on building the world's greenest lithium-ion batteries, supplying major automotive and industrial customers.",
+        "websiteUrl": "https://www.northvolt.com",
+        "companyStatus": "active",
+        "entityType": "Corporation",
+        "vertical": "Manufacturing",
+        "subVertical": "Battery Manufacturing",
+        "annualRevenueUsd": 1280000000,
+        "fundingStage": "series-e",
+        "ticker": null,
+        "stockExchange": null,
+        "parentCompanyId": null,
+        "directors": [
+          {
+            "id": "DIR-C002-01",
+            "name": "Elena Söderström",
+            "email": "elena.soderstrom@northvolt.com",
+            "phone": "+46-8-555-0401"
+          },
+          {
+            "id": "DIR-C002-02",
+            "name": "Marcus Lindqvist",
+            "email": "marcus.lindqvist@northvolt.com",
+            "phone": "+46-8-555-0415"
+          }
+        ],
+        "locations": [
+          {
+            "id": "LOC-C002-01",
+            "name": "Headquarters",
+            "addressLine1": "Alströmergatan 20",
+            "city": "Stockholm",
+            "region": "Stockholm",
+            "postalCode": "11247",
+            "countryCode": "SE"
+          },
+          {
+            "id": "LOC-C002-02",
+            "name": "Gigafactory",
+            "addressLine1": "Västra Hamnvägen 12",
+            "city": "Skellefteå",
+            "region": "Västerbotten",
+            "postalCode": "93132",
+            "countryCode": "SE"
+          },
+          {
+            "id": "LOC-C002-03",
+            "name": "Berlin Engineering Office",
+            "addressLine1": "Friedrichstraße 68",
+            "city": "Berlin",
+            "region": "Berlin",
+            "postalCode": "10117",
+            "countryCode": "DE"
+          }
+        ]
+      }
+    ]
+  }
